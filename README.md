@@ -63,10 +63,12 @@ Each **Reso Unit (RU)** is a unique quantum-bio state: a spin superposition $|\p
 
 **Inter-node Linking**: Hyphal fusion + low-loss 1550 nm quantum-optical fiber for entanglement swapping. Global “Mycelial Mesh” scales via spore dispersal and open-source kits.
 
-**Morphological Dynamics (Reservoir Equation)**:  
+**Morphological Dynamics (Reservoir Equation)**
+
 $$
 \frac{d\mathbf{x}(t)}{dt} = -\gamma \mathbf{x}(t) + f(W \mathbf{x}(t) + \mathbf{u}(t))
 $$
+
 where $\mathbf{x}(t)$ encodes resistance/capacitance, $f$ is nonlinear growth, and $W$ updates via Hebbian plasticity on resonance events. Output read via optical fluorescence or impedance tomography.
 
 **Self-Regulation**: >5 % resistance deviation triggers engineered apoptosis; negative environmental feedback increases $\gamma$, inducing value decay.
@@ -74,13 +76,15 @@ where $\mathbf{x}(t)$ encodes resistance/capacitance, $f$ is nonlinear growth, a
 ### 5. Resonance Oracle Specification
 The Oracle runs as substrate-native reservoir computation augmented by lightweight symbolic wrappers. It evaluates **Proof-of-Resonance**:
 
-**Triadic Score Calculation**  
+**Triadic Score Calculation**
+
 $$
-R_{\text{total}} = 0.4 R_{\text{env}} + 0.4 R_{\text{cog}} + 0.2 R_{\text{ai}}
+R_{total} = 0.4 R_{env} + 0.4 R_{cog} + 0.2 R_{ai}
 $$
-- $R_{\text{env}}$: Satellite + IoT fusion (CO₂ sequestration, biodiversity index).  
-- $R_{\text{cog}}$: Cosine similarity of multi-user BCI waveforms.  
-- $R_{\text{ai}}$: Delta in global optimization metrics from symbiotic models.
+
+- $R_{env}$: Satellite + IoT fusion ($CO_{2}$ sequestration, biodiversity index).
+- $R_{cog}$: Cosine similarity of multi-user BCI waveforms.
+- $R_{ai}$: Delta in global optimization metrics from symbiotic models.
 
 **Pseudo-Code (Reservoir-Native Pythonic Specification)**
 
