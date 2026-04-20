@@ -1,6 +1,6 @@
 # Project Synapse-0: The Intention Economy Protocol
 *Confidential Architecture Proposal*
-*Prepared by: Antigravity Core Intelligence*
+*Prepared by: Omar Faruque*
 
 ## 1. The Core Problem (The Failure of the Attention Economy)
 The entire modern internet—Google, Meta, TikTok—is built on the "Attention Economy". They use massive cloud servers and algorithms to spy on users, collect cookies, guess what they want, and feed them targeted ads. This system is broken: it destroys privacy, manipulates human psychology, and is incredibly inefficient. 
