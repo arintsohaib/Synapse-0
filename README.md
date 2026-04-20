@@ -47,7 +47,7 @@ ResoMycel comprises two tightly coupled layers:
 1. **Physical Mycelial Mesh** – living nodes providing storage, computation, and quantum interface.  
 2. **Resonance Oracle** – emergent computation layer running natively inside the mycelium reservoir.
 
-Each **Reso Unit (RU)** is a unique quantum-bio state: a spin superposition \( |\psi\rangle = \alpha|0\rangle + \beta|1\rangle \) (with \( |\alpha|^2 + |\beta|^2 = 1 \)) embedded in mycelial hyphae and stabilized by morphological resistance/capacitance maps.
+Each **Reso Unit (RU)** is a unique quantum-bio state: a spin superposition $|\psi\rangle = \alpha|0\rangle + \beta|1\rangle$ (where $|\alpha|^2 + |\beta|^2 = 1$) embedded in mycelial hyphae and stabilized by morphological resistance/capacitance maps.
 
 ### 4. Mycelium Network Protocols
 #### 4.1 Node Construction (Forge Kit v1 – Replicable Today)
@@ -63,24 +63,24 @@ Each **Reso Unit (RU)** is a unique quantum-bio state: a spin superposition \( |
 
 **Inter-node Linking**: Hyphal fusion + low-loss 1550 nm quantum-optical fiber for entanglement swapping. Global “Mycelial Mesh” scales via spore dispersal and open-source kits.
 
-**Morphological Dynamics** (Reservoir Equation):  
-\[
+**Morphological Dynamics (Reservoir Equation)**:  
+$$
 \frac{d\mathbf{x}(t)}{dt} = -\gamma \mathbf{x}(t) + f(W \mathbf{x}(t) + \mathbf{u}(t))
-\]  
-where \(\mathbf{x}(t)\) encodes resistance/capacitance, \(f\) is nonlinear growth, and \(W\) updates via Hebbian plasticity on resonance events. Output read via optical fluorescence or impedance tomography.
+$$
+where $\mathbf{x}(t)$ encodes resistance/capacitance, $f$ is nonlinear growth, and $W$ updates via Hebbian plasticity on resonance events. Output read via optical fluorescence or impedance tomography.
 
-**Self-Regulation**: >5 % resistance deviation triggers engineered apoptosis; negative environmental feedback increases \(\gamma\), inducing value decay.
+**Self-Regulation**: >5 % resistance deviation triggers engineered apoptosis; negative environmental feedback increases $\gamma$, inducing value decay.
 
 ### 5. Resonance Oracle Specification
 The Oracle runs as substrate-native reservoir computation augmented by lightweight symbolic wrappers. It evaluates **Proof-of-Resonance**:
 
-**Triadic Score**  
-\[
+**Triadic Score Calculation**  
+$$
 R_{\text{total}} = 0.4 R_{\text{env}} + 0.4 R_{\text{cog}} + 0.2 R_{\text{ai}}
-\]  
-- \(R_{\text{env}}\): Satellite + IoT fusion (CO₂ sequestration, biodiversity index).  
-- \(R_{\text{cog}}\): Cosine similarity of multi-user BCI waveforms.  
-- \(R_{\text{ai}}\): Delta in global optimization metrics from symbiotic models.
+$$
+- $R_{\text{env}}$: Satellite + IoT fusion (CO₂ sequestration, biodiversity index).  
+- $R_{\text{cog}}$: Cosine similarity of multi-user BCI waveforms.  
+- $R_{\text{ai}}$: Delta in global optimization metrics from symbiotic models.
 
 **Pseudo-Code (Reservoir-Native Pythonic Specification)**
 
